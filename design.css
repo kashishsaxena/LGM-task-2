@@ -1,0 +1,91 @@
+.header{
+    min-height:70px;
+    min-width:100%;
+    background-color:rgb(243, 219, 174);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header .main{
+    display: flex;
+    padding: 1% 1%;
+    flex-direction: row;
+    max-width: 300px;
+}
+.header .main a img{
+    max-width:70px;
+    border-radius:50px;
+    margin-left:20px;
+}
+.header .main h4{
+    flex: 1;
+    font-weight:1000px;
+    font-family:sans-serif;
+    font-size: 20px;
+    color:black;  
+    padding-left:20px ;
+}
+.header .main a button{
+    background-color:red;
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
+    margin-left: 65em;
+    margin-top: 10px;
+}
+
+.members{
+    height: 200vh;
+    width: 100%;
+    background-image: linear-gradient(90deg,rgb(241, 113, 134));
+}
+.search-form{
+    padding-top: 30px;
+    margin-left:30em;
+}
+.search-form input{
+    padding: 7px;
+    border-color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.search-form button{
+    color:white;
+    background-color: brown;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.cards{
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns:20em 20em 20em;
+    gap: 50px;
+    font-family: sans-serif;
+    
+}
+.card{
+    box-shadow: 0 0 5px black;
+    background-color: #8b3313;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    margin-top:100px;
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.2);
+    z-index:1;
+    background-color: rgb(136, 189, 15);
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    padding: 50px;
+}
+.card p{
+    font-weight: bold;
+}
